@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   server: {
-    port: process.env.node_ENV === 'production' ? null : 5000,
+    port: process.env.NODE_ENV === 'production' ? null : 5000,
   },
   head: {
     title: 'learn-nuxt',
