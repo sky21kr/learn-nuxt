@@ -43,5 +43,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  // env config
+  env: {
+    baseURL: process.env.NODE_ENV === 'production'
+    ? 'https://my-json-server.typicode.com/sky21kr/learn-nuxt-api'
+    : 'http://localhost:3000',
   }
 }
