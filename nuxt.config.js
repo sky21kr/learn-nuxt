@@ -1,4 +1,5 @@
 export default {
+  target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   server: {
     port: process.env.NODE_ENV === 'production' ? null : 5000,
