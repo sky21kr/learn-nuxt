@@ -24,7 +24,6 @@ export default {
   //     await store.dispatch(FETCH_CART_ITEMS)
   //   },
   async fetch() {
-    console.log('this', this)
     await this.$store.dispatch(FETCH_CART_ITEMS)
   },
 }
